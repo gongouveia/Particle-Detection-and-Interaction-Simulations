@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 29 19:35:19 2021
 
-@author: gouve
+@author: gongou00@gmail.com
 """
 
 #import libraries
@@ -70,5 +70,7 @@ df = pd.DataFrame(numpy_array, columns=["x","y","z","length"])
 df.loc[:4].style.set_properties(**{'background-color': 'black',
                            'color': 'lawngreen',
                            'border-color': 'white'})
+
+#prient first 40 dataset points
 print(df.head(40))
 
