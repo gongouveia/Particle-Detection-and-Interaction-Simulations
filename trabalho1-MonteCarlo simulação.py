@@ -46,7 +46,7 @@ ax3.set_title("Monte Carlo Gaussian")
 
 
 
-
+#the exponential distribution
 
 
 def exp(u3,lamb):
