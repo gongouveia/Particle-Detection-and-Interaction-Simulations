@@ -59,7 +59,7 @@ ax4.set_title("r3 dataset - seed 64 ")
 show()
 
 
-#
+# organise dataset table
 A=[]
 for i in range(numArrows):
     A.append([round(x[i],3),round(y[i],3),round(z[i],3), round(size[i],3)])
